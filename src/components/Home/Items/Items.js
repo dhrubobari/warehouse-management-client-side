@@ -15,9 +15,9 @@ const Items = () => {
     return (
         <div className='container mt-5'>
         <div>
-        <h1 className='title'>Here is our best TV</h1>
+        <h1>Here is our best TV</h1>
         </div>
-        <div className='items-container'>
+        <div className='items-container mt-5'>
             {
                 items.map(item => <Item
                     key={item.id}

@@ -5,7 +5,8 @@ import './Header.css';
 const Header = () => {
   return (
     <>
-      <Navbar bg="success" variant="dark">
+    <Nav class="navbar-custom">
+      <Navbar>
       <Container>
           <Navbar.Brand to="/">
             Tech Scope
@@ -19,6 +20,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    </Nav>  
     </>
   );
 };

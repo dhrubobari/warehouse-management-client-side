@@ -5,6 +5,7 @@
         "price": 580,
         "quantity": 0,
         "supplier": "Sony",
+        "description": "Enjoy the beauty of colours with Sony's X80J",
         "img": "https://www.sony-asia.com/image/916e1ca5c3b64c3947acae853da7ad07?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
     },
     {
@@ -13,6 +14,7 @@
         "price": 550,
         "quantity": 0,
         "supplier": "LG",
+        "description": "LG TVs suit every room and budget.",
         "img": "https://www.lg.com/ae/images/tvs/md06188296/gallery/D1_V_V2.jpg"
         },
     {
@@ -29,6 +31,7 @@
         "price": 500,
         "quantity": 0,
         "supplier": "Samsung",
+        "description": "Samsung offers LED TVs like HD TV, The Frame TV, Full HD TV.",
         "img": "https://www.sathya.in/media/41676/catalog/samsung-43-ua43t5500-smart-fhd-led-tv.png?size=256"
     },
     {
@@ -41,7 +44,7 @@
     },
     {
         "id": 6, 
-        "name": "Black Leema 24 Smart Led",
+        "name": "Black Leema 24",
         "price": 350,
         "quantity": 0,
         "supplier": "Leema",
