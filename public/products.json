@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1, 
+        "name": "Sony X80J Google Tv",
+        "price": 580,
+        "quantity": 0,
+        "supplier": "Sony",
+        "img": "https://www.sony-asia.com/image/916e1ca5c3b64c3947acae853da7ad07?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
+    },
+    {
+        "id": 2, 
+        "name": "LG 65 inch smart TV",
+        "price": 550,
+        "quantity": 0,
+        "supplier": "LG",
+        "img": "https://www.lg.com/ae/images/tvs/md06188296/gallery/D1_V_V2.jpg"
+        },
+    {
+        "id": 3, 
+        "name": "Nokia Smart Tv 43inch",
+        "price": 300,
+        "quantity": 0,
+        "supplier": "Nokia",
+        "img": "https://www.nokia.com/shop/sites/default/files/styles/aspect_3_2_560px/public/2021-10/4K_Nokia-Card_1400x1120.jpg?itok=642nkk6Y"
+    },
+    {
+        "id": 4, 
+        "name": "Samsung FHD Led Tv",
+        "price": 500,
+        "quantity": 0,
+        "supplier": "Samsung",
+        "img": "https://www.sathya.in/media/41676/catalog/samsung-43-ua43t5500-smart-fhd-led-tv.png?size=256"
+    },
+    {
+        "id": 5, 
+        "name": "Toshiba Basic Full HD",
+        "price": 350,
+        "quantity": 0,
+        "supplier": "Toshiba",
+        "img": "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/1/1191976-2.jpg"
+    },
+    {
+        "id": 6, 
+        "name": "Black Leema 24 Smart Led",
+        "price": 350,
+        "quantity": 0,
+        "supplier": "Leema",
+        "img": "https://5.imimg.com/data5/EK/EK/WS/SELLER-93562552/24-inch-smart-led-tv-500x500.jpg"
+    }
+]
