@@ -1,5 +1,6 @@
 .items {
     border: 1px solid lightgrey;
+    border-radius: 10px;
     width: 330px;
     padding: 1px;
     margin-bottom: 20px;
