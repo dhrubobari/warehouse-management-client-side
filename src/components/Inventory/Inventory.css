@@ -1,0 +1,16 @@
+.details {
+    border: 1px solid grey;
+    margin: auto;
+    width: 25%;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.d-inline button {
+    color: white;
+    background-color: #0275d8;
+    border: 0;
+    padding: 4px;
+    border-color: silver;
+}
