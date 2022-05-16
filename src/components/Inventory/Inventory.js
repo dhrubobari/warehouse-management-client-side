@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Col, Form, FormControl, InputGroup, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Form } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 import './Inventory.css';
 
 const Inventory = () => {
@@ -20,7 +20,6 @@ const Inventory = () => {
         <h3 className='mt-5 text-info'>Your TV Details</h3>
             <div className='details'>
             <p>Model: {item.name}</p>
-            <p>price: {item.price}</p>
             <p>quantity: {item.quantity}</p>
             <p>supplied by: {item.supplier}</p>
             </div>
@@ -29,9 +28,12 @@ const Inventory = () => {
         <div className='d-inline'>
         <input type="number" className='mt-5' placeholder='add quantity' />
         <button>Add</button>
+        <button className='m-3 btn btn-warning'>Deliver</button>
         </div>
-        </div>    
-        <Button variant="outline-warning" className='mt-5'>Deliver</Button>
+        </div>
+        <Link to={'/manageinventory'}>
+        <button type="button" class="mt-5 btn btn-success">Manage Inventories</button> 
+        </Link>
         </div>
     );
 };
