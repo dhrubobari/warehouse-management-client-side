@@ -11,6 +11,7 @@ const ManageInventory = () => {
         .then(data => setallItems(data))
     }, [])
 
+    // 
     const removeItem = id => {
         const url = 'http://localhost:5000/manageinventory';
         fetch(url, {
