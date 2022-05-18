@@ -28,7 +28,7 @@ const Inventory = () => {
         <div className='d-inline'>
         <input type="number" className='mt-5' placeholder='add quantity' />
         <button id="add-quantity">Add</button>
-        <button className='m-3 btn btn-warning'>Deliver</button>
+        <button className='m-3'>Deliver</button>
         </div>
         </div>
         <Link to={'/manageinventory'}>

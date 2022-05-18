@@ -26,9 +26,19 @@ const Header = () => {
                 <Nav.Link href="/home/items">Items</Nav.Link>
               </Nav>
               <Nav>
+              <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+              </Nav>
+              <Nav>
+              {
+                user && <>
+                <Nav.Link as={Link} to="manageinventory">Manage Items</Nav.Link>
+                <Nav.Link as={Link} to="inventory/:itemId">My Items</Nav.Link>
+                <Nav.Link as={Link} to="addinventory">Add Items</Nav.Link>
+                </>
+              }
               {user ? 
                 <button className="btn btn-outline-light" onClick={signOutLogin}>
-                  sign out
+                  Logout
                 </button>
                : 
                 <Nav.Link as={Link} to="login">
