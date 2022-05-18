@@ -11,7 +11,7 @@ const Item = ({item}) => {
     }
 
     return (
-        <div className='items'>
+        <div className='items shadow-sm'>
             <img src={img} alt="" />
             <h4>{name}</h4>
             <p>Price: ${price}</p>

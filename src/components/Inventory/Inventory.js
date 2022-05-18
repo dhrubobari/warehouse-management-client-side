@@ -13,21 +13,21 @@ const Inventory = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setItem(data))
-    }, [])
+    })
 
     return (
         <div>
-        <h3 className='mt-5 text-info'>Your TV Details</h3>
+        <h3 className='mt-5 text-info'>TV Details</h3>
             <div className='details'>
             <p>Model: {item.name}</p>
-            <p>quantity: {item.quantity}</p>
+            <p>quantity: <span id="manage-quantity">0</span></p>
             <p>supplied by: {item.supplier}</p>
             </div>
         <div>
         <Form.Control size="sm" type="text" placeholder='restock the items' className='mt-5 w-25 mx-auto' />    
         <div className='d-inline'>
         <input type="number" className='mt-5' placeholder='add quantity' />
-        <button>Add</button>
+        <button id="add-quantity">Add</button>
         <button className='m-3 btn btn-warning'>Deliver</button>
         </div>
         </div>

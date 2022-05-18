@@ -9,8 +9,8 @@ const Banner = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={tv} alt="First slide" />
           <Carousel.Caption>
-            <h3>Find The Best Device For You</h3>
-            <p>Spend more time with your family.</p>
+            <h3>First Slide Label</h3>
+            <p>televisions inventory at tech scope</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
