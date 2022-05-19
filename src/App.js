@@ -4,6 +4,7 @@ import Blogs from './components/Header/Blogs/Blogs';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Items from './components/Home/Items/Items';
+import NotFound from './components/Home/NotFound/NotFound';
 import AddItem from './components/Inventory/AddItem/AddItem';
 import Inventory from './components/Inventory/Inventory';
 import ManageInventory from './components/Inventory/ManageInventory/ManageInventory';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
